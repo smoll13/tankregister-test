@@ -1,5 +1,5 @@
-const CACHE='tankregister-v2-0-0-'+self.registration.scope;
-const FILES=['./','./index.html','./core.js','./stats.js','./extras.js','./ui.js','./v12.css','./manifest.webmanifest','./icon-192.png','./icon-512.png'];
+const CACHE='tankregister-v2-0-0-layout2-'+self.registration.scope;
+const FILES=['./','./index.html','./core.js','./stats.js','./extras.js','./ui.js','./v12.css','./manifest.webmanifest','./icon-192.png','./icon-512.png','./vehicle.png'];
 self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(FILES))));
 // Normal waiting lifecycle: an update takes effect after all old app tabs close.
 // Do not delete other apps' caches on the shared github.io origin.
