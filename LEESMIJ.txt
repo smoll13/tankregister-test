@@ -1,0 +1,11 @@
+Mercedes Tankregister v10
+
+1. Maak eerst een JSON-back-up vanuit je huidige online Tankregister.
+2. Upload de bestanden uit deze ZIP naar de ROOT van je bestaande GitHub repository.
+3. Vervang de oude index.html, manifest.webmanifest, sw.js en iconbestanden.
+4. Wacht enkele minuten en herlaad de site in Chrome.
+5. Dezelfde URL en dezelfde localStorage sleutel worden gebruikt. Controleer altijd je gegevens.
+
+Nieuw: donkerblauw dashboard, navigatie, kosten per 100 km, tankstationvoorstellen, schatting van tankinterval, datum/tijd bij invoer, vorige kilometerstand als voorstel.
+
+Let op: OCR blijft een experimentele functie, niet gegarandeerd voor pompdisplays of tickets. Ticketnaam-herkenning is nog niet betrouwbaar geïmplementeerd.
